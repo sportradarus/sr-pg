@@ -60,11 +60,11 @@ executes SQL statements using the client directly.  This will create a new, sing
 
 ```js
 
-const client = require('sr-pg').Pool
+const client = require('sr-pg').Client
 
 
 function getSomething(id) {
-  //creating a new new connection to the d
+  //creating a new new connection to the db
   return client.query('select something from somewhere where id = $1', [id])
   .catch((err)=> {
     this.handleError(err)
