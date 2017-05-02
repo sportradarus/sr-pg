@@ -1,4 +1,4 @@
-[![node](https://img.shields.io/badge/node-v6.10.0-blue.svg)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/sportradarus/sr-pg.svg?branch=master)](https://travis-ci.org/sportradarus/sr-pg) [![node](https://img.shields.io/badge/node-v6.10.0-blue.svg)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 # SR-PG
 
 A tiny convenience wrapper for [node-postgres](https://github.com/brianc/node-postgres). This exists to reduce cut and past code for PG pools and PG clients that exist throughout our projects.
